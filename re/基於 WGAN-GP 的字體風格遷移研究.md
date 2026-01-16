@@ -41,16 +41,21 @@
 Google colab L4 GPU @
 
 NVIDIA GeForce RTX 3050 Ti Laptop GPU (筆電)
+
 12th Gen Intel(R) Core(TM) i7-12700H CPU (筆電)
 
 ### 軟體
 
 Python 3.12.12 (colab)
+
 Pytorch 2.9.0+cu126 (colab)
+
 PIL 11.0.0 (colab)
 
 Python 3.10.0 (筆電)
+
 Pytorch 2.6.0+cu118 (筆電)
+
 PIL 11.3.2 (筆電)
 
 ## 文獻探討
@@ -58,8 +63,11 @@ PIL 11.3.2 (筆電)
 ### ■ 文獻探討敘述方式
 
 > 如果有空我要把它寫成 GAN本身的發展
+> 
 > GAN 在圖像生成的應用以及優勢
+> 
 > 漢字自體生成相關的研究
+> 
 > 可能有個小結
 
 ### 生成對抗網路 (Generative Adversarial Network,GAN)
@@ -98,7 +106,9 @@ Pix2pix 是一種 Conditional GAN（CGAN），用於圖像和圖像之間的映�
 ### ■ 判斷好壞標準
 
 > 可能需要一個介紹自體生成好壞判斷標準的東東
+> 
 > 像是 整體結構 筆畫輕細度 風格相似度 (皆為主觀)
+> 
 > 再丟去判別器或 L1距離 (較客觀)
 
 ### 研究流程
@@ -247,7 +257,8 @@ $$ \mathcal{L}_{\text{Total}} = \mathcal{L}_{\text{adv}} + \lambda*{L1} \cdot \m
 
 ### ■ 損失曲線
 
-> 要不要放個經典的 WGAN-GP 曲線 但我找步道
+> 要不要放個經典的 WGAN-GP 曲線 但我找不到
+> 
 > 然後說一下訓練豪穩定
 
 ### 生成結果
