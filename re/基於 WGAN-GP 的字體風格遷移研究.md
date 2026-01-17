@@ -41,12 +41,15 @@
 Google colab L4 GPU 
 
 NVIDIA GeForce RTX 3050 Ti Laptop GPU (筆電)
+
 12th Gen Intel(R) Core(TM) i7-12700H CPU (筆電)
 
 ### 軟體
 
 Python 3.12.12 (colab)
+
 Pytorch 2.9.0+cu126 (colab)
+
 PIL 11.0.0 (colab)
 
 Python 3.10.0 (筆電，主要做數據整理以及圖表繪製)
