@@ -235,7 +235,7 @@ Wen 等人（2021）[7] 提出了此一協同筆畫細化（Collaborative Stroke
 #### 1. 對抗損失 (Adversarial Loss)
 
 對於生成器而言，其目標是最小化生成圖像被判別器 （Discriminator,D）評分為「假」的程度（即最大化判別器分數）。其損失函數定義為：
-$$ \mathcal{L}_{\text{adv}} = -\mathbb{E}_{z, I{s}} [D(G(z, I_{s}))] $$
+$$ \mathcal{L}_{\text{adv}} = -\mathbb{E}_{z, I_{s}} [D(G(z, I_{s}))] $$
 其中，$z$ 為隨機噪聲，$I_{s}$ 為來源字體圖像，$G(z, I_{s})$ 為生成的偽造圖像。
 
 註：為了維持 WGAN 的 1-Lipschitz 限制，判別器 $D$ 的訓練過程額外包含梯度懲罰項 （Gradient Penalty），其完整損失為 $\mathcal{L}_{D} = \mathbb{E}[D(G(z, I_{s}))] - \mathbb{E}[D(I_{t})] + \lambda_{gp}\mathbb{E}[(||\nabla_{\hat{x}} D(\hat{x})||_2 - 1)^2]$。
