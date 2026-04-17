@@ -15,4 +15,4 @@ week: " <% tp.user.week_number() %>"
 
 
 ---
-藍翊庭 - <% tp.user.week_number() %>
+@J - <% tp.user.week_number() %>
